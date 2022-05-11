@@ -12,7 +12,7 @@
   --bg-color-transparent: #2C0A9980;
   --font-color: #ffffff;
   --btn-bg-color: #8CF266;
-  --accent-color: #8CF266;
+  --accent-color: #552FEE;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -105,7 +105,7 @@ header .container {
   background: var(--btn-bg-color);
   color: var(--accent-color);
   font-family: var(--font-secondary);
-  font-style: italic;
+  font-style: regular;
   font-weight: bold;
   font-size: 1rem;
   text-align: center;
