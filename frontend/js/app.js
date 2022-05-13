@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     pagination: false,
     autoplay: true,
     direction: 'ltr',
-    gap: '10px',
+    gap: '40px',
     width: '40vw',
     autoHeight: true,
   });

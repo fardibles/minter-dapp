@@ -333,8 +333,7 @@ section {
 }
 
 .splide__slide {
-  border: var(--accent-color) solid;
-  box-shadow: 2px 2px 20px #2C0A9920;
+  box-shadow: 2px 2px 10px #2C0A9920;
   border-radius: 10px;
 }
 
