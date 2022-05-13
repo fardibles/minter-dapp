@@ -33,12 +33,13 @@ body {
 }
 
 .container {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
   flex-direction: column;
   max-width: 1400;
+  padding-left: 15px;
+  padding-right: 15px;
   height: 75px;
+  padding: 1rem 1rem;
   justify-content: space-between;
   overflow: visible;
 }
@@ -159,6 +160,9 @@ header .container {
 }
 
 .show-card {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
   opacity: 1;
   transform: translateX(0);
 }
