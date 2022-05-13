@@ -1,8 +1,5 @@
 let accounts;
-import { Splide } from '@splidejs/splide';
-import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 
-new Splide( '.splide' ).mount( { AutoScroll } );
 // METAMASK CONNECTION
 window.addEventListener("DOMContentLoaded", async () => {
   const welcomeH1 = document.getElementById("welcomeH1");
@@ -28,16 +25,17 @@ window.addEventListener("DOMContentLoaded", async () => {
   }
 
   const splide = new Splide(".splide", {
-    type   : 'loop',
-    drag   : 'free',
-    focus  : 'center',
+    type: "loop",
+    drag: 'free',
+    focus: 'center',
+    arrows: false,
     perPage: 3,
-    autoScroll: {
-      speed: 2,
-    },
-  } );
-  
-  splide.mount();
+    pagination: false,
+    autoplay: true,
+    direction: 'ltr',
+    height: "calc(100vh - -80vh)",
+    width: '20vw',
+    autoHeight: true,
   });
   splide.mount();
 
