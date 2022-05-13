@@ -146,8 +146,6 @@ header .container {
 
 .card {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
   color: var(--font-color);
   background-color: var(--bg-color);
   border-radius: 5px;
