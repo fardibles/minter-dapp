@@ -169,7 +169,7 @@ header .container {
 /* COUNTDOWN SECTION */
 
 section {
-  max-width: 1200px;
+  max-width: auto;
   flex: 1 1 auto;
 }
 
