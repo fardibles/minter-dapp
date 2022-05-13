@@ -145,6 +145,7 @@ header .container {
 /* CARD */
 
 .card {
+  display: flex;
   color: var(--font-color);
   background-color: var(--bg-color);
   border-radius: 5px;
@@ -158,7 +159,7 @@ header .container {
 }
 
 .show-card {
-  position: flex;
+  display: flex;
   flex-direction: column;
   opacity: 1;
   transform: translateX(0);
