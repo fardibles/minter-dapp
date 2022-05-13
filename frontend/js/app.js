@@ -34,7 +34,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     autoplay: true,
     direction: 'ltr',
     gap: '40px',
-    width: '40vw',
+    width: '80vw',
     autoHeight: true,
   });
   splide.mount();

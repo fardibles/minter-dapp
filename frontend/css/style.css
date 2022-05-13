@@ -65,11 +65,13 @@ header .container {
 
 /* NOT CONNECTED */
 .not-connected {
+  position: absolute;
+  right: 15px;
+  top: 15px;
   align-items: center;
   max-width: 1200px;
   height: 100%;
   text-align: center;
-  margin: 10vw auto 0 35vw;
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
@@ -325,7 +327,7 @@ section {
 /* SLIDDER */
 
 .splide {
-  display: block;
+  display: absolute;
   margin-left: auto;
   margin-right: auto;
   top: 90px;
