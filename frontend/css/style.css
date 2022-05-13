@@ -159,9 +159,8 @@ header .container {
 }
 
 .show-card {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  position: flex;
+  flex-direction: column;
   opacity: 1;
   transform: translateX(0);
 }
