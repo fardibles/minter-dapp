@@ -69,7 +69,7 @@ header .container {
   max-width: 1200px;
   height: 100%;
   text-align: center;
-  margin: 0 auto 0 35vw;
+  margin: 10vw auto 0 35vw;
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
@@ -81,7 +81,7 @@ header .container {
 }
 
 .not-connected h1 {
-  text-shadow: 2px 2px 20 var(--accent-color);
+  text-shadow: 2px 2px 20px var(--accent-color);
   font-style: normal;
   font-weight: bold;
   margin: 2rem 0;
@@ -97,8 +97,9 @@ header .container {
 .not-connected a {
   text-decoration: none;
   color: var(--accent-color);
+  font-family: var(--font-secondary);
   font-size: 1.5rem;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 /* BUTTONS */
@@ -324,7 +325,7 @@ section {
 /* SLIDDER */
 
 .splide {
-  position: absolute;
+  position: relative;
   top: 90px;
   left: 5rem;
   z-index: -1;
