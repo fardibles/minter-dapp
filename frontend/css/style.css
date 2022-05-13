@@ -324,16 +324,17 @@ section {
 
 /* SLIDDER */
 
-/*.splide {
-  position: relative;
+.splide {
+  position: absolute;
   top: 90px;
-  left: 5rem;
+  left: 10rem;
   z-index: -1;
 }
 
 .splide__slide {
   border: var(--accent-color) solid;
   border-width: 5px 10px;
+  border-radius: 10px;
 }
 
 .splide__slide img {
