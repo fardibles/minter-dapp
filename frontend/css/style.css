@@ -180,14 +180,14 @@ section {
 }
 
 .countdown {
-  display: relative;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .countdown ul {
-  display: relative;
+  display: flex;
   gap: 2rem;
 }
 .countdown .clock-item {
