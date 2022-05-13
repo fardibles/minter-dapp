@@ -40,6 +40,7 @@
   "author": "Jesse Hall (codeSTACKr)",
   "license": "MIT",
   "dependencies": {
+    "@splidejs/splide-extension-auto-scroll": "^0.4.2",
     "async-sema": "^3.1.1",
     "canvas": "^2.8.0",
     "commander": "^9.0.0",
