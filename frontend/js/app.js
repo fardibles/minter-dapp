@@ -25,7 +25,7 @@ window.addEventListener("DOMContentLoaded", async () => {
   }
 
   const splide = new Splide(".splide", {
-    type: "loop",
+    type: 'loop',
     drag: 'free',
     focus: 'center',
     arrows: false,
@@ -33,8 +33,8 @@ window.addEventListener("DOMContentLoaded", async () => {
     pagination: false,
     autoplay: true,
     direction: 'ltr',
-    //height: "calc(100vh - -80vh)",
-    width: '20vw',
+    gap: '10px',
+    width: '40vw',
     autoHeight: true,
   });
   splide.mount();
