@@ -49,7 +49,7 @@ body {
 
 header {
   background-color: var(--bg-color);
-  box-shadow: var(--header-shadow);
+  box-shadow: 5px 5px 10px #2C0A9920;
 }
 
 header .container {
