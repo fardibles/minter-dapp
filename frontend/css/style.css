@@ -143,7 +143,6 @@ header .container {
 /* CARD */
 
 .card {
-  position: relative;
   max-width: 1200px;
   background-color: var(--bg-color);
   border-radius: 5px;
