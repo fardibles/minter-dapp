@@ -41,7 +41,7 @@ body {
   height: 75px;
   padding: 1rem 1rem;
   justify-content: space-between;
-  overflow: hidden;
+  overflow: visible;
 }
 
 /* HEADER */
