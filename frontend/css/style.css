@@ -67,7 +67,7 @@ header .container {
 .not-connected {
   position: relative;
   margin: auto;
-  top: 20px;
+  top: 15vh;
   align-items: center;
   height: 100%;
   text-align: center;
@@ -77,7 +77,6 @@ header .container {
 
 .show-not-connected {
   opacity: 1;
-  transform: translateY(0);
 }
 
 .not-connected h1 {
@@ -90,16 +89,17 @@ header .container {
 
 .not-connected p {
   font-size: 1.1rem;
+  color: #2C0A99;
   font-family: var(--font-secondary);
   line-height: 1.8;
 }
 
 .not-connected a {
   text-decoration: none;
-  color: var(--accent-color);
-  font-family: var(--font-secondary);
+  color: #2C0A99;
+  font-family: "Reem Kufi";
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 /* BUTTONS */
