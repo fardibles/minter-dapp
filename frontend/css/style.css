@@ -90,7 +90,7 @@ header .container {
 .not-connected h2 {
   text-shadow: 2px 2px 20px #2C0A9920;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   margin: 2rem 0;
   font-size: 3.5rem;
 }
