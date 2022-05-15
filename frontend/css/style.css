@@ -169,7 +169,7 @@ header .container {
 /* COUNTDOWN SECTION */
 
 section {
-  max-width: auto;
+  max-width: 80vw;
   flex: 1 1 auto;
 }
 
@@ -203,7 +203,7 @@ section {
   font-family: var(--font-secondary);
   padding: 1rem;
   display: inline-block;
-  max-width: 1200px;
+  max-width: 80vw;
   text-align: center;
   line-height: 1;
   border-radius: 4px 4px 0 0;
