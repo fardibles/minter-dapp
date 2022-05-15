@@ -328,6 +328,7 @@ section {
 
 .splide {
   display: flex;
+  margin: auto;
   flex-direction: column;
   background-color: #ffffff00;
 }
