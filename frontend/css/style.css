@@ -89,14 +89,14 @@ header .container {
 
 .not-connected p {
   font-size: 1.1rem;
-  color: #2C0A99;
+  color: #1e1a2b;
   font-family: var(--font-secondary);
   line-height: 1.8;
 }
 
 .not-connected a {
   text-decoration: none;
-  color: #2C0A99;
+  color: #1e1a2b;
   font-family: "Reem Kufi";
   font-size: 1.5rem;
   font-weight: normal;
