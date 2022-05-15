@@ -25,6 +25,9 @@
 
 body {
   background-color: #ffffff;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
   height: 100vh;
   color: #2C0A99;
   font-family: var(--font-primary);
