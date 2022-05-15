@@ -90,7 +90,8 @@ header .container {
 .not-connected h2 {
   text-shadow: 2px 2px 20px #2C0A9920;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
+  text-transform: uppercase;
   font-family: "Reem Kufi";
   margin: 2rem 0;
   font-size: 2rem;
