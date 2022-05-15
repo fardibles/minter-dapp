@@ -45,7 +45,7 @@
 
 .splide {
     outline: none;
-    position: relative;
+    display: flex;
     visibility: hidden
 }
 
