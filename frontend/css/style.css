@@ -87,6 +87,14 @@ header .container {
   font-size: 3.5rem;
 }
 
+.not-connected h2 {
+  text-shadow: 2px 2px 20px #2C0A9920;
+  font-style: normal;
+  font-weight: bold;
+  margin: 2rem 0;
+  font-size: 3.5rem;
+}
+
 .not-connected p {
   font-size: 1.1rem;
   color: #1e1a2b;
