@@ -154,8 +154,6 @@ header .container {
   box-shadow: var(--card-shadow);
   padding: 5rem;
   opacity: 0;
-  transform: translateX(100vw);
-  transition: all 0.5s ease-in-out;
 }
 
 .show-card {
@@ -181,7 +179,6 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 .countdown ul {
