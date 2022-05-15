@@ -146,7 +146,7 @@ header .container {
 /* CARD */
 
 .card {
-  position: relative;
+  display: flex;
   margin: auto;
   color: var(--font-color);
   background-color: var(--bg-color);
@@ -160,7 +160,7 @@ header .container {
 }
 
 .show-card {
-  position: relative;
+  display: flex;
   margin: auto;
   opacity: 1;
   transform: translateX(0);
@@ -328,8 +328,9 @@ section {
 /* SLIDDER */
 
 .splide {
-  position: relative;
+  display: flex;
   margin: auto;
+  bottom: 20vh;
   flex-direction: column;
   background-color: #ffffff00;
 }
