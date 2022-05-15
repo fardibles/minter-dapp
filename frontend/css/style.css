@@ -158,9 +158,9 @@ header .container {
 
 .show-card {
   display: flex;
-  margin: auto;
+  margin-right: 10vw;
+  margin-left: 10vw;
   opacity: 1;
-  transform: translateX(0);
 }
 
 /* COUNTDOWN SECTION */
@@ -325,8 +325,8 @@ section {
 
 .splide {
   display: flex;
-  margin: auto;
-  bottom: 10vh;
+  margin-right: 10vw;
+  margin-left: 10vw;
   flex-direction: column;
   background-color: #ffffff00;
 }
