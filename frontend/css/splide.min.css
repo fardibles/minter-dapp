@@ -1,6 +1,6 @@
 .splide__container {
     box-sizing: border-box;
-    display: flex
+    bottom: 5vh;
 }
 
 .splide__list {
@@ -45,8 +45,6 @@
 
 .splide {
     outline: none;
-    display: flex;
-    bottom: 20vh;
     visibility: hidden
 }
 

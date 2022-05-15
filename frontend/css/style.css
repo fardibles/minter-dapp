@@ -330,7 +330,7 @@ section {
 .splide {
   display: flex;
   margin: auto;
-  margin-top:auto;
+  bottom: 10vh;
   flex-direction: column;
   background-color: #ffffff00;
 }
