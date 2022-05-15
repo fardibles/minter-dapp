@@ -169,7 +169,6 @@ header .container {
 
 .show-card {
   display: flex;
-  max-width: 40vw;
   justify-content: space-around;
   margin-right: 15vw;
   margin-left: 15vw;
