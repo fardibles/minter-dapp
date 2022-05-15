@@ -93,7 +93,8 @@
 .splide__track {
     overflow: hidden;
     display: flex;
-    bottom: 5vh
+    bottom: 5vh;
+    padding: 1rem 1rem;
 }
 
 @keyframes splide-loading {
