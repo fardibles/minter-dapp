@@ -158,7 +158,8 @@ header .container {
 
 .show-card {
   display: flex;
-  margin: auto;
+  margin-right: 15vw;
+  margin-left: 15vw;
   opacity: 1;
 }
 
@@ -324,8 +325,8 @@ section {
 
 .splide {
   display: flex;
-  margin: auto;
-  bottom: 10vh;
+  margin-right: 15vw;
+  margin-left: 15vw;
   flex-direction: column;
   background-color: #ffffff00;
 }
