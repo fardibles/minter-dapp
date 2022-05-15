@@ -328,7 +328,7 @@ section {
 /* SLIDDER */
 
 .splide {
-  display: flex;
+  position: relative;
   margin: auto;
   flex-direction: column;
   background-color: #ffffff00;
